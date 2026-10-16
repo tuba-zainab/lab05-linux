@@ -1,0 +1,16 @@
+total 60
+drwxr-x--- 9 tuba-zainab tuba-zainab 4096 Oct 16 04:21 .
+drwxr-xr-x 3 root        root        4096 Sep 13 07:20 ..
+-rw------- 1 tuba-zainab tuba-zainab 3020 Oct 10 11:12 .bash_history
+-rw-r--r-- 1 tuba-zainab tuba-zainab  220 Feb 13  2026 .bash_logout
+-rw-r--r-- 1 tuba-zainab tuba-zainab 3771 Feb 13  2026 .bashrc
+drwx------ 2 tuba-zainab tuba-zainab 4096 Sep 13 07:34 .cache
+-rw-rw-r-- 1 tuba-zainab tuba-zainab  187 Oct 16 04:18 .gitconfig
+-rw------- 1 tuba-zainab tuba-zainab   20 Oct 10 09:03 .lesshst
+drwx------ 3 tuba-zainab tuba-zainab 4096 Oct  6 07:38 .local
+-rw-r--r-- 1 tuba-zainab tuba-zainab  807 Feb 13  2026 .profile
+drwx------ 2 tuba-zainab tuba-zainab 4096 Oct 16 04:12 .ssh
+drwxrwxr-x 3 tuba-zainab tuba-zainab 4096 Oct 10 09:06 Assignment01
+drwxrwxr-x 3 tuba-zainab tuba-zainab 4096 Oct  6 07:04 Gitea
+drwxrwxr-x 5 tuba-zainab tuba-zainab 4096 Oct 16 04:21 lab05-linux
+drwxrwxr-x 2 tuba-zainab tuba-zainab 4096 Oct 10 11:38 portfolio
