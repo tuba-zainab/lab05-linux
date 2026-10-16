@@ -1,0 +1,59 @@
+2026-10-16T16:07:54.046833+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T16:07:54.632972+00:00 ubuntu groupadd[2770]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-16T16:07:54.640103+00:00 ubuntu groupadd[2770]: group added to /etc/gshadow: name=lab5user
+2026-10-16T16:07:54.643213+00:00 ubuntu groupadd[2770]: new group: name=lab5user, GID=1001
+2026-10-16T16:07:54.716735+00:00 ubuntu useradd[2775]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/0
+2026-10-16T16:08:37.977786+00:00 ubuntu chfn[2795]: changed user 'lab5user' information
+2026-10-16T16:08:38.038899+00:00 ubuntu gpasswd[2802]: members of group users set by root to tuba-zainab,lab5user
+2026-10-16T16:09:04.502417+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T16:10:20.759342+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/deluser lab5user
+2026-10-16T16:10:21.161429+00:00 ubuntu userdel[2887]: delete user 'lab5user'
+2026-10-16T16:10:21.169614+00:00 ubuntu userdel[2887]: delete 'lab5user' from group 'users'
+2026-10-16T16:10:21.170818+00:00 ubuntu userdel[2887]: removed group 'lab5user' owned by 'lab5user'
+2026-10-16T16:10:21.172561+00:00 ubuntu userdel[2887]: removed shadow group 'lab5user' owned by 'lab5user'
+2026-10-16T16:10:21.173768+00:00 ubuntu userdel[2887]: delete 'lab5user' from shadow group 'users'
+2026-10-16T16:10:38.664250+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-16T16:11:18.605312+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T16:11:18.785883+00:00 ubuntu groupadd[2944]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-16T16:11:18.789212+00:00 ubuntu groupadd[2944]: group added to /etc/gshadow: name=lab5user
+2026-10-16T16:11:18.790823+00:00 ubuntu groupadd[2944]: new group: name=lab5user, GID=1001
+2026-10-16T16:11:18.814660+00:00 ubuntu useradd[2949]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/0
+2026-10-16T16:11:45.512000+00:00 ubuntu chfn[2960]: changed user 'lab5user' information
+2026-10-16T16:11:45.744082+00:00 ubuntu gpasswd[2967]: members of group users set by root to tuba-zainab,lab5user
+2026-10-16T16:11:58.541048+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/deluser lab5user
+2026-10-16T16:11:58.737308+00:00 ubuntu userdel[3005]: delete user 'lab5user'
+2026-10-16T16:11:58.738978+00:00 ubuntu userdel[3005]: delete 'lab5user' from group 'users'
+2026-10-16T16:11:58.740525+00:00 ubuntu userdel[3005]: removed group 'lab5user' owned by 'lab5user'
+2026-10-16T16:11:58.741420+00:00 ubuntu userdel[3005]: removed shadow group 'lab5user' owned by 'lab5user'
+2026-10-16T16:11:58.742626+00:00 ubuntu userdel[3005]: delete 'lab5user' from shadow group 'users'
+2026-10-16T16:12:06.876755+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-16T16:12:35.319400+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-16T16:13:31.162392+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/deluser --remove-all-files lab5user
+2026-10-16T16:14:13.322040+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/delgroup lab5user
+2026-10-16T16:14:37.613987+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T16:14:37.755719+00:00 ubuntu groupadd[3139]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-16T16:14:37.760779+00:00 ubuntu groupadd[3139]: group added to /etc/gshadow: name=lab5user
+2026-10-16T16:14:37.763756+00:00 ubuntu groupadd[3139]: new group: name=lab5user, GID=1001
+2026-10-16T16:14:37.791768+00:00 ubuntu useradd[3144]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/0
+2026-10-16T16:14:54.908711+00:00 ubuntu passwd[3150]: pam_unix(passwd:chauthtok): password changed for lab5user
+2026-10-16T16:17:03.648835+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/bin/rm r /home/lab5user
+2026-10-16T16:17:24.959941+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-16T16:17:25.187653+00:00 ubuntu userdel[3247]: delete user 'lab5user'
+2026-10-16T16:17:25.191513+00:00 ubuntu userdel[3247]: removed group 'lab5user' owned by 'lab5user'
+2026-10-16T16:17:25.191897+00:00 ubuntu userdel[3247]: removed shadow group 'lab5user' owned by 'lab5user'
+2026-10-16T16:18:04.474123+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T16:18:04.615941+00:00 ubuntu groupadd[3328]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-16T16:18:04.620167+00:00 ubuntu groupadd[3328]: group added to /etc/gshadow: name=lab5user
+2026-10-16T16:18:04.624327+00:00 ubuntu groupadd[3328]: new group: name=lab5user, GID=1001
+2026-10-16T16:18:04.652892+00:00 ubuntu useradd[3333]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/0
+2026-10-16T16:18:19.059853+00:00 ubuntu passwd[3344]: pam_unix(passwd:chauthtok): password changed for lab5user
+2026-10-16T16:18:26.889095+00:00 ubuntu chfn[3349]: changed user 'lab5user' information
+2026-10-16T16:18:46.211436+00:00 ubuntu gpasswd[3359]: members of group users set by root to tuba-zainab,lab5user
+2026-10-16T16:22:01.362314+00:00 ubuntu su[3406]: (to lab5user) tuba-zainab on tty1
+2026-10-16T16:22:01.365459+00:00 ubuntu su[3406]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by tuba-zainab(uid=1000)
+2026-10-16T16:24:30.053004+00:00 ubuntu su[3406]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-16T16:25:06.606467+00:00 ubuntu su[3537]: (to lab5user) tuba-zainab on tty1
+2026-10-16T16:25:06.608129+00:00 ubuntu su[3537]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by tuba-zainab(uid=1000)
+2026-10-16T16:25:29.294027+00:00 ubuntu su[3537]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-16T16:27:02.047669+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-16T16:27:46.873996+00:00 ubuntu sudo: tuba-zainab : TTY=/dev/tty1 ; PWD=/home/tuba-zainab/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
