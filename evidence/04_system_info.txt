@@ -1,0 +1,27 @@
+Linux ubuntu 7.0.0-38-generic #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       670Mi       224Mi        18Mi       879Mi       923Mi
+Swap:          2.0Gi       2.3Mi       2.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           319M  1.5M  318M   1% /run
+/dev/sda2        20G  7.6G   11G  42% /
+tmpfs           798M     0  798M   0% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           798M     0  798M   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           160M   12K  160M   1% /run/user/1000

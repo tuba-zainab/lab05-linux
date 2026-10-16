@@ -1,0 +1,226 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.9  25740 16048 ?        Ss   05:42   0:11 /usr/lib/systemd/systemd --switched-root --system --deserialize=51
+root           2  0.0  0.0      0     0 ?        S    05:42   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    05:42   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-netns]
+root          13  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        S    05:42   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    05:42   0:01 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    05:42   0:00 [rcu_exp_par_gp_kthread_worker/1]
+root          17  0.0  0.0      0     0 ?        S    05:42   0:00 [rcu_exp_gp_kthread_worker]
+root          18  0.0  0.0      0     0 ?        S    05:42   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    05:42   0:00 [kprobe-optimizer]
+root          20  0.0  0.0      0     0 ?        S    05:42   0:00 [idle_inject/0]
+root          21  0.0  0.0      0     0 ?        S    05:42   0:00 [cpuhp/0]
+root          22  0.0  0.0      0     0 ?        S    05:42   0:00 [cpuhp/1]
+root          23  0.0  0.0      0     0 ?        S    05:42   0:00 [idle_inject/1]
+root          24  0.0  0.0      0     0 ?        S    05:42   0:00 [migration/1]
+root          25  0.0  0.0      0     0 ?        S    05:42   0:00 [ksoftirqd/1]
+root          27  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/1:0H-kblockd]
+root          28  0.0  0.0      0     0 ?        S    05:42   0:00 [kdevtmpfs]
+root          29  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-inet_frag_wq]
+root          30  0.0  0.0      0     0 ?        I    05:42   0:00 [rcu_tasks_kthread]
+root          31  0.0  0.0      0     0 ?        I    05:42   0:00 [rcu_tasks_rude_kthread]
+root          32  0.0  0.0      0     0 ?        S    05:42   0:00 [kauditd]
+root          33  0.0  0.0      0     0 ?        S    05:42   0:00 [khungtaskd]
+root          35  0.0  0.0      0     0 ?        S    05:42   0:00 [oom_reaper]
+root          37  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-writeback]
+root          38  0.0  0.0      0     0 ?        S    05:42   0:03 [kcompactd0]
+root          39  0.0  0.0      0     0 ?        SN   05:42   0:00 [ksmd]
+root          40  0.0  0.0      0     0 ?        SN   05:42   0:00 [khugepaged]
+root          41  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-kblockd]
+root          42  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-blkcg_punt_bio]
+root          43  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-kintegrityd]
+root          44  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/9-acpi]
+root          46  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-tpm_dev_wq]
+root          47  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-ata_sff]
+root          48  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-md_bitmap]
+root          49  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-md_llbitmap_io]
+root          50  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-md_llbitmap_unplug]
+root          51  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-edac-poller]
+root          52  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-devfreq_wq]
+root          53  0.0  0.0      0     0 ?        S    05:42   0:00 [watchdogd]
+root          54  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-quota_events_unbound]
+root          55  0.0  0.0      0     0 ?        S    05:42   0:01 [kswapd0]
+root          56  0.0  0.0      0     0 ?        S    05:42   0:00 [ecryptfs-kthread]
+root          57  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-kthrotld]
+root          58  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/24-pciehp]
+root          59  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/25-pciehp]
+root          60  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/26-pciehp]
+root          61  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/27-pciehp]
+root          62  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/28-pciehp]
+root          63  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/29-pciehp]
+root          64  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/30-pciehp]
+root          65  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/31-pciehp]
+root          66  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/32-pciehp]
+root          67  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/33-pciehp]
+root          68  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/34-pciehp]
+root          69  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/35-pciehp]
+root          70  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/36-pciehp]
+root          71  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/37-pciehp]
+root          72  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/38-pciehp]
+root          73  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/39-pciehp]
+root          74  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/40-pciehp]
+root          75  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/41-pciehp]
+root          76  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/42-pciehp]
+root          77  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/43-pciehp]
+root          78  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/44-pciehp]
+root          79  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/45-pciehp]
+root          80  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/46-pciehp]
+root          81  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/47-pciehp]
+root          82  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/48-pciehp]
+root          83  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/49-pciehp]
+root          84  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/50-pciehp]
+root          85  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/51-pciehp]
+root          86  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/52-pciehp]
+root          87  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/53-pciehp]
+root          88  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/54-pciehp]
+root          89  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/55-pciehp]
+root          90  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-acpi_thermal_pm]
+root          91  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_0]
+root          92  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_0]
+root          93  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_1]
+root          94  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_1]
+root          98  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-mld]
+root          99  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-ipv6_addrconf]
+root         100  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-kstrp]
+root         103  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/u513:0]
+root         114  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-charger_manager]
+root         312  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-mpt_poll_0]
+root         313  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-mpt/0]
+root         314  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_2]
+root         315  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_2]
+root         316  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_3]
+root         317  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_3]
+root         318  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_4]
+root         319  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_4]
+root         320  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_5]
+root         321  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_5]
+root         322  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_6]
+root         323  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_6]
+root         324  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_7]
+root         325  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_7]
+root         326  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_8]
+root         327  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_8]
+root         328  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_9]
+root         329  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_9]
+root         330  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_10]
+root         331  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_10]
+root         332  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_11]
+root         333  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_11]
+root         334  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_12]
+root         335  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_12]
+root         336  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_13]
+root         337  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_13]
+root         338  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_14]
+root         339  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_14]
+root         340  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_15]
+root         341  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_15]
+root         342  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_16]
+root         343  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_16]
+root         344  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_17]
+root         345  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_17]
+root         346  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_18]
+root         347  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_18]
+root         348  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_19]
+root         349  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_19]
+root         350  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_20]
+root         351  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_20]
+root         352  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_21]
+root         353  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_22]
+root         354  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_21]
+root         355  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_22]
+root         356  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_23]
+root         357  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_23]
+root         358  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_24]
+root         359  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_24]
+root         360  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_25]
+root         361  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_25]
+root         362  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_26]
+root         363  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_26]
+root         364  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_27]
+root         365  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_27]
+root         366  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_28]
+root         367  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_28]
+root         368  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_29]
+root         369  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_29]
+root         370  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_30]
+root         371  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_30]
+root         372  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_31]
+root         373  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_31]
+root         374  0.0  0.0      0     0 ?        S    05:42   0:00 [scsi_eh_32]
+root         375  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-scsi_tmf_32]
+root         446  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/0:1H-kblockd]
+root         448  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/1:2H-kblockd]
+root         479  0.0  0.0      0     0 ?        S    05:42   0:00 [jbd2/sda2-8]
+root         480  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-ext4-rsv-conversion]
+root         544  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/57-vmw_vmci]
+root         545  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/58-vmw_vmci]
+root         546  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/59-vmw_vmci]
+root         582  0.0  1.0  50536 16768 ?        S<s  05:42   0:01 /usr/lib/systemd/systemd-journald
+root         623  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-kmpathd]
+root         626  0.0  0.0 158836  1596 ?        Ssl  05:42   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root         628  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-kmpath_handlerd]
+root         633  0.0  0.5 345028  9776 ?        SLsl 05:42   0:03 /usr/sbin/multipathd -d -s
+root         646  0.0  0.0      0     0 ?        S    05:42   0:00 [irq/16-vmwgfx]
+root         647  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-ttm]
+root         648  0.0  1.0  43008 17124 ?        Ss   05:42   0:02 /usr/lib/systemd/systemd-udevd
+systemd+     656  0.0  0.9  22636 14720 ?        Ss   05:42   0:00 /usr/lib/systemd/systemd-resolved
+root         658  0.0  0.0      0     0 ?        S    05:42   0:00 [psimon]
+systemd+     892  0.0  0.7  24456 12800 ?        Ss   05:42   0:00 /usr/lib/systemd/systemd-networkd
+root         982  0.0  0.7  20572 11468 ?        Ss   05:42   0:00 /usr/bin/VGAuthService
+root         990  0.3  0.7 253808 11528 ?        Ssl  05:42   0:38 /usr/bin/vmtoolsd
+root        1025  0.0  0.0      0     0 ?        I<   05:42   0:00 [kworker/R-cfg80211]
+root        1106  0.0  0.1   2888  2008 ?        Ss   05:42   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+message+    1107  0.0  0.3   9144  5856 ?        Ss   05:42   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1116  0.0  1.8  46744 30268 ?        Ss   05:42   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+polkitd     1117  0.0  0.5 306448  8284 ?        Ssl  05:42   0:00 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+root        1120  0.0  2.3 1854756 38212 ?       Ssl  05:42   0:03 /snap/snapd/current/usr/lib/snapd/snapd
+root        1123  0.0  0.5  18600  9764 ?        Ss   05:42   0:00 /usr/lib/systemd/systemd-logind
+root        1124  0.0  0.9 543356 15116 ?        Ssl  05:42   0:00 /usr/libexec/udisks2/udisksd
+root        1209  0.0  0.2   7060  3408 ?        Ss   05:42   0:00 /usr/sbin/cron -f -P
+root        1214  0.3  3.2 1867532 53824 ?       Ssl  05:42   0:40 /usr/bin/containerd
+_chrony     1217  0.0  0.7  23856 11440 ?        S    05:42   0:00 /usr/sbin/chronyd -n -F 1
+root        1218  0.0  2.0 126116 33036 ?        Ssl  05:42   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+_chrony     1244  0.0  0.1  12096  2436 ?        S    05:42   0:00 /usr/sbin/chronyd -n -F 1
+syslog      1261  0.0  0.3 220548  6208 ?        Ssl  05:42   0:00 /usr/sbin/rsyslogd -n -iNONE
+root        1264  0.0  0.8 391608 14148 ?        Ssl  05:42   0:00 /usr/sbin/ModemManager
+root        1281  0.0  0.3   8760  5528 ?        Ss   05:42   0:00 login -- tuba-zainab
+root        1525  0.0  5.2 2128244 85788 ?       Ssl  05:42   0:09 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1946  0.0  0.6 1233616 11000 ?       Sl   05:42   0:01 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 6045e64319db7ebcdfdafdf139a139628e955fb90fada823177145d7bf07f41b -address /run/containerd/containerd.sock
+root        1955  0.0  0.6 1233872 10996 ?       Sl   05:42   0:01 /usr/bin/containerd-shim-runc-v2 -namespace moby -id c2a7923849eb5e84ab5faa95efeb43959bf21d413e21db7afc1532134d17f765 -address /run/containerd/containerd.sock
+root        1996  0.0  0.0   1340  1144 ?        Ss   05:42   0:00 /usr/bin/s6-svscan /etc/s6
+70          2003  0.0  1.6 175496 27652 ?        Ss   05:42   0:00 postgres
+root        2049  0.0  0.2 1597540 4764 ?        Sl   05:42   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 3000 -container-ip 172.18.0.3 -container-port 3000 -use-listen-fd
+root        2055  0.0  0.2 1745004 4780 ?        Sl   05:42   0:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 3000 -container-ip 172.18.0.3 -container-port 3000 -use-listen-fd
+root        2083  0.0  0.0   1120   816 ?        S    05:42   0:00 s6-supervise gitea
+root        2085  0.0  0.0   1120   804 ?        S    05:42   0:00 s6-supervise openssh
+root        2086  0.0  0.2   6660  4704 ?        Ss   05:42   0:00 sshd: /usr/sbin/sshd -D -e [listener] 0 of 10-100 startups
+tuba-za+    2087  0.3  9.6 1446548 157400 ?      Ssl  05:42   0:34 /usr/local/bin/gitea web
+70          2153  0.0  0.4 175588  7224 ?        Ss   05:42   0:00 postgres: checkpointer 
+70          2154  0.0  0.3 175592  6520 ?        Ss   05:42   0:00 postgres: background writer 
+70          2188  0.0  0.5 175560  9460 ?        Ss   05:42   0:00 postgres: walwriter 
+70          2189  0.0  0.4 177132  7988 ?        Ss   05:42   0:00 postgres: autovacuum launcher 
+70          2190  0.0  0.4 177104  7216 ?        Ss   05:42   0:00 postgres: logical replication launcher 
+70          2306  0.0  1.1 178804 18048 ?        Ss   05:43   0:00 postgres: gitea gitea 172.18.0.3(40502) idle
+70          2312  0.0  1.0 178604 16856 ?        Ss   05:43   0:00 postgres: gitea gitea 172.18.0.3(40514) idle
+tuba-za+    2440  0.0  0.8  22384 13196 ?        Ss   05:45   0:00 /usr/lib/systemd/systemd --user
+tuba-za+    2444  0.0  0.2  23016  4104 ?        S    05:45   0:00 (sd-pam)
+tuba-za+    2468  0.0  0.3   8856  4984 tty1     Ss   05:45   0:01 -bash
+root        2518  0.0  0.7 318584 11464 ?        Ssl  05:47   0:00 /usr/libexec/upowerd
+tuba-za+    2759  0.0  0.3   8556  5084 ?        Ss   05:55   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        4299  0.0  0.0      0     0 ?        I    07:37   0:01 [kworker/u512:3-events_power_efficient]
+root        5029  0.0  0.0      0     0 ?        I    08:03   0:01 [kworker/0:1-cgroup_free]
+root        5030  0.0  0.0      0     0 ?        I<   08:03   0:00 [kworker/0:2H-kblockd]
+root        5180  0.1  0.0      0     0 ?        I    08:08   0:03 [kworker/1:2-events]
+root        5374  0.0  0.0      0     0 ?        I    08:21   0:00 [kworker/u512:2-events_unbound]
+root        5597  0.0  1.6 366136 26372 ?        Ssl  08:22   0:01 /usr/libexec/fwupd/fwupd
+root        6537  0.0  0.0      0     0 ?        S    08:22   0:00 [psimon]
+root        6978  0.0  0.0      0     0 ?        I    08:33   0:00 [kworker/u512:1-events_power_efficient]
+root        7172  0.1  0.0      0     0 ?        I    08:40   0:01 [kworker/0:0-events]
+root        7176  0.0  0.0      0     0 ?        I    08:40   0:00 [kworker/1:1-events]
+tuba-za+    7246  200  0.3  10352  5172 tty1     R+   08:49   0:00 ps aux
